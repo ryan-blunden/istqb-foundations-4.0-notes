@@ -5,6 +5,8 @@ import mdx from "@astrojs/mdx";
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://ryan-blunden.github.io',
+  base: 'istqb-foundations-4.0-notes',
   integrations: [
     starlight({
       title: "ISTQB Foundation Level 4.0 Couse Notes",
