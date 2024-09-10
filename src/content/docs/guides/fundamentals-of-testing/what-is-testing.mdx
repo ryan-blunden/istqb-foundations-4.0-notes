@@ -5,10 +5,69 @@ title: What is Testing?
 import FAQList from "../../../../components/faq-list.astro";
 import FAQ from "../../../../components/faq.astro";
 
-## Review Questions
+## Insights
 
-<FAQList title="FAQs">
-  <FAQ title="Question 1?">
-    Question 1 answer.
+Static testing is where you'll find the majority of issues!
+
+Testing is the process of verifying a system meets it's specified requirements. But it's not just about meeting functional requirements. It's also to ensure that an acceptable level of quality is attained for the user experience, whether that be related to aspects such as security, performance, ease of use, and system protection.
+
+It also verifies it's ability to handle various exceptional and boundary use cases exibited by user and system behaviour that the developers may not have accounted for.
+
+Static testing involves testing and reviewing resources related to the software without executing it, e.g. reviewing test objects, code, or designs, while dynamic testing evaluates the software by execution to test it's actual behaviour against it's requirements.
+
+## Static Testing
+
+80% of the issues are in this section.
+
+Else, you're a "fire fighter" because you're fixing issues once it's been developed.
+
+"Shifting left" is about finding issues before they're implemented.
+
+* Reviewing design documents and documentation
+* Motivations
+* Business requirements
+* Wireframes
+* Design Specs
+* Pseudo code
+* Architecture
+
+## Test Objectives
+
+> **EXAM:** Objectives so study that slide.
+> **What's the difference between static and dynamic testing?
+
+1. Coverage: Thorough testing to ensure quality and reliability
+
+2. Quality: Ensure software devlopment aligns with product goals
+
+3. Verificaiton: Ensure system meets it's requirements
+
+4. Validation: Ensure test designs meet the product requirements 
+If the user hates it, the feature is useless. QA is about quality, not just catching developer bugs and regressions.
+
+5. Confidence: Ensuring the software provides a quality user experience
+It's about knowing the org is spending their money wisely and getting value.
+
+6. Reduce risk: Integrate testing early to mitigate the risk releasing buggy software
+Mitigating risk is about bringing tests in ASAP. Doing testing after everything else is done is waterfall. That's not agile.
+
+7. Share Information: Provide comprehensive reports and insights for data-driven decision making
+Engage with the people invested in us and give them information so they can make intelligent business decisions.
+
+8. Failures and defects: Identify issues early to ensure quality releases
+* Failures are things you observe. 
+* Defects are earlier in the chain.
+
+9. Verifying Test Objects: Check tests for compliance with specific external standards and agreements (e.g. performance).
+For example, if you work in a regulated industry, you need to observe whether the software meets regulatory requirements.
+
+## Review Questions****
+
+<FAQList>
+  <FAQ title="What's the diffence between static and dynamic testing?">
+    <p>Static testing tests a system without executing or using it, e.g. reviewing code and product requirements vs UI design. Testing early helps identify defects and potential issues early, which is a lot cheaper and easier than fixing it later once developed.</p>
+    <p>Dynamic testing evaluates running software to establish if it's behaviour meets its stated requirements, as well as identifying issues that can't be caught during static testing, such as runtime errors. It also evaluates aspects the user experience, as not only should a feature work, it must work in a way that the user finds satisfactory.</p>
+  </FAQ>
+  <FAQ title="What's the difference between testing and debugging?">
   </FAQ>
 </FAQList>

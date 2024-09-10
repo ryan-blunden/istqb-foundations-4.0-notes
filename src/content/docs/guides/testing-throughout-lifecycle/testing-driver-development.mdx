@@ -2,13 +2,21 @@
 title: Testing as a Driver for Software Development
 ---
 
-import FAQList from "../../../../components/faq-list.astro";
-import FAQ from "../../../../components/faq.astro";
+## TDD
 
-## Review Questions
+- Test-driven, test-first design
+- Tests must fail first, then pass
+- Rapid feedback during the development process
+- Enables developers to more aggressively refactor internal APIs
 
-<FAQList title="FAQs">
-  <FAQ title="Question 1?">
-    Question 1 answer.
-  </FAQ>
-</FAQList>
+## ATDD
+
+- Takes TDD further by deriving tests from acceptance criteria as part of the system design process.
+- These criteria define what the system is supposed to do, and tests are written before the relevant part of the app is developed.
+- Seems like a bad idea. (Note: You might want to elaborate or clarify why it seems like a bad idea.)
+
+## BDD
+
+- Refinement of TDD that focuses on the desired behavior of an application.
+- Bridges users, testers, and developers.
+- Test cases are written in a simple form of natural language, so stakeholders can understand what's being tested, even if they don't understand how it's being tested.

@@ -1,14 +1,50 @@
 ---
 title: Acceptance Testing
 ---
+Finding defects is not the main focus of acceptance testing!
 
-import FAQList from "../../../../components/faq-list.astro";
-import FAQ from "../../../../components/faq.astro";
+It's to establish confidence in the system.
 
-## Review Questions
+Typically performed by the end-users or testers simulating end-users. 
 
-<FAQList title="FAQs">
-  <FAQ title="Question 1?">
-    Question 1 answer.
-  </FAQ>
-</FAQList>
+It's not about technical correctness—but validating that the system delivers what the users and business expect.
+
+It's to answer questions such as "Does this fulfill my needs as a user?" and "Does it provide the required user experience that will encourage me to use and get value from the system?"
+
+Functional and non-functional testing.
+
+Test basis:
+- User requirements
+- System requirements
+- Use cases
+- Business processes
+- Risk analysis reports
+
+Test objects:
+- Business, operational, maintenance, and processes
+- Procedures
+- Forms and reports
+
+Two types: UAT and OAT
+
+## User Acceptance Testing (UAT)
+
+- Verifies fitness for use by users
+- Typically the responsibility of the users
+
+## Operational Acceptance Testing (OAT)
+
+- Verifies the fitness for use of the system by system administrators
+- Done by system administrators
+
+For example:
+- Restore from backup
+- Disaster recovery
+- User management
+- Maintenance tasks
+- Data load and migration
+- Security vulnerability testing
+
+Contract and regulation acceptance (e.g., government, legal, safety).
+
+Alpha testing is done at the vendor's site, while Beta testing is done at the customer's site.

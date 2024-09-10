@@ -2,13 +2,39 @@
 title: Testing Principles
 ---
 
+**EXAM**: Know the testing principles and know the difference between them all.
+
+1. **Testing shows the presence, not absence of defects**  
+   It helps reduce the risk of failure but can't guarantee it's defect-free.
+
+2. **Exhaustive Testing is impossible**  
+   It would require an impractical amount of time, effort, and money. Effective testing is knowing the most valuable tests to write, not trying to test everything.
+
+   One of the most crucial skills is the ability to identify and prioritize the most critical functions to be tested. Efforts are optimized based on risk assessment of the areas being tested.
+
+3. **Early Testing Saves Time and Money**  
+   Minimize the number of issues found later. It's faster, cheaper, and easier to fix problems before they're implemented.
+
+4. **Defects Cluster Together**  
+   It's common for a significant portion of defects to be concentrated within a small number of modules, e.g., complex and legacy code that is not well understood and not well covered by tests.
+
+   Testers being aware of these modules is crucial so they can intelligently allocate resources to mitigate risks from bad code.
+
+5. **Tests Wear Out**  
+   Need to revisit slides. Tests have a shelf life and should be reviewed regularly.
+
+6. **Testing is context-dependent**  
+   The industry, domain, environmental factors, standards, consequences, maturity level, application stability, complexity, and more will dictate the approaches and level of rigor required. Figure out what is important by assessing the context.
+
+7. **Absence of defects fallacy**  
+   Extensive testing does not guarantee that the application is of high quality. If the user "doesn't like it," there may not be functional failures, but it's a failure all the same.
 import FAQList from "../../../../components/faq-list.astro";
 import FAQ from "../../../../components/faq.astro";
 
 ## Review Questions
 
 <FAQList title="FAQs">
-  <FAQ title="Question 1?">
-    Question 1 answer.
+  <FAQ title="How to find out what's important to your organization?">
+    As well as capturing test conditions and test cases, bring in the stakeholders to discover what they care about, because, as domain experts, they'll likely be aware of potential issues, risks, and rules that you're not.
   </FAQ>
 </FAQList>

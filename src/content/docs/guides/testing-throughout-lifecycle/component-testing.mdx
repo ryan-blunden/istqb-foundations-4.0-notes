@@ -2,13 +2,25 @@
 title: Component Testing
 ---
 
-import FAQList from "../../../../components/faq-list.astro";
-import FAQ from "../../../../components/faq.astro";
+Usually performed by the developer (e.g., TDD).
 
-## Review Questions
+TDD example: Drivers and Stubs (GoF design patterns):
+- Driver calls into a component
+- Stub replaces the component under test
+- You're testing the contract and requirements based on the component's response, not the component's behavior
 
-<FAQList title="FAQs">
-  <FAQ title="Question 1?">
-    Question 1 answer.
-  </FAQ>
-</FAQList>
+- Unit, module, or program testing
+
+Test basis:
+- Component specifications
+- Detailed design
+- Code
+- Data model
+
+Typical test objects:
+- Component, units, modules, classes, code, data structures
+
+Issues:
+- Code-level issues
+
+No formal defect management. Iterative design process.

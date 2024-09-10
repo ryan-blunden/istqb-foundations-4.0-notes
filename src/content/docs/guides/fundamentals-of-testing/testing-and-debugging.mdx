@@ -1,14 +1,42 @@
 ---
 title: Testing and Debugging
 ---
-
-import FAQList from "../../../../components/faq-list.astro";
-import FAQ from "../../../../components/faq.astro";
-
 ## Review Questions
 
-<FAQList title="FAQs">
-  <FAQ title="Question 1?">
-    Question 1 answer.
-  </FAQ>
-</FAQList>
+> **EXAM:** The Debugging diagram is very important for the exam.  
+> **EXAM:** What's the difference between testing and debugging?  
+> For dynamic testing, it's a "failure" if something doesn't work.  
+> Failure = issue  
+> Default = debugging to identify the failure
+
+1. Find a failure
+2. Root cause analysis
+3. Apply fix
+4. Create test if not covered by existing requirements
+5. Apply and verify fix
+
+Standard debugging process:
+
+* Reproduction
+* Diagnosis (root cause analysis)
+* Fix
+
+Testing and debugging are different.
+
+Testing is concerned with the evaluation and verification process of identifying defects, regressions, quality-related issues, and ensuring that the software meets all defined requirements.
+
+Debugging focuses on determining the root cause (e.g., state analysis, UI issues, analyzing code, logs, errors) of a discovered defect and consistently reproducing it to establish the conditions under which it occurs.
+
+Debugging is a crucial skill, as the time to fix an issue is heavily dependent upon the quality of information provided to the development team, making it easier for them to implement a fix.
+
+## Testing
+
+### Debugging
+
+Debugging is understanding and resolving the underlying causes of failure.
+
+Standard process:
+
+* Reproduction of failure (so testers and devs see the same thing)
+* Diagnosis to identify the root cause (as deep as necessary)
+* Fixing the cause

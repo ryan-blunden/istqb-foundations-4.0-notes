@@ -5,10 +5,23 @@ title: Traceability Between the Test Basis and Test Work Products
 import FAQList from "../../../../components/faq-list.astro";
 import FAQ from "../../../../components/faq.astro";
 
+Essential to establish a traceability to prove you're hit all of the user requirements and test cases.
+
+Tag test cases with the requirement ID, e.g. for user story 1, I've done test case 1, 2, 3.
+
+Good traceability supports:
+
+- Analysing change impact
+- Making testing audible (e.g. auditor needs to know what's happened: what was tested, how it's been tested, and who tested it)
+- Meeting IT governance
+- Producing useful test progress and summary reports (have you tested everything in scope? Show them the test matrix).
+- Relating outcomes and data to stakeholders to provide intel and confidence. Ask everyone in the chain "where could this possibly fail", e.g. ticket site with 100k people trying to but tickets. Have we asked the stakeholders how many people might be buying tickets?
+- Providing information to evaluate quality, progress, and capability against business goals
+
 ## Review Questions
 
 <FAQList title="FAQs">
-  <FAQ title="Question 1?">
-    Question 1 answer.
+  <FAQ title="What should happen if a user story or requirements change?">
+    The right people need to be brought in and discussions needs to happen so test cases can be reviewed to understand if tests should be added, removed, or updated.
   </FAQ>
 </FAQList>

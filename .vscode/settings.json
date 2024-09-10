@@ -1,0 +1,18 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[mdx]": {
+    "editor.quickSuggestions": {
+      // "other": true, // or "off"
+      // "comments": false, // or "off"
+      // "strings": false // or "off"
+    }
+  },
+  "terminal.integrated.suggest.builtinCompletions": {
+    "pwshCode": true,
+    "pwshGit": true
+  },
+  "editor.wordBasedSuggestions": "off",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  }
+}

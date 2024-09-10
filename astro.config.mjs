@@ -7,11 +7,15 @@ import mdx from "@astrojs/mdx";
 export default defineConfig({
   integrations: [
     starlight({
-      title: "ISTQB Notes",
+      title: "ISTQB Foundation Level 4.0 Couse Notes",
       social: {
         github: "https://github.com/withastro/starlight",
       },
       sidebar: [
+        {
+          label: "General Insights",
+          slug: "guides/general-insights",
+        },
         {
           label: "Fundamentals of Testing",
           items: [
