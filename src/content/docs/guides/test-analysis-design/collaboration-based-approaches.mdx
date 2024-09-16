@@ -5,10 +5,108 @@ title: Collaboration-based Test Approaches
 import FAQList from "../../../../components/faq-list.astro";
 import FAQ from "../../../../components/faq.astro";
 
-## Review Questions
+Emphasize cooperation, communicaitn, and teamwork.
 
-<FAQList title="FAQs">
-  <FAQ title="Question 1?">
-    Question 1 answer.
-  </FAQ>
-</FAQList>
+Collaboration 
+
+TODO: Review.
+
+Collaborative User Story Writing
+
+- Involves testers in the process of creating and refining user stories.
+
+The three C's of user stories:
+- Card
+- Conversation
+- Confirmation
+
+## User story expansion
+
+As a user, I want t- upload files s- I can manage my documents online.
+
+Questions t- ask:
+- WHO: What users? Wh- is this for?
+- Wh- should and shouln't be able t- see these documents?
+- HOW: How and where will they store files?
+- WHAT: What files can be uploaded?
+- What is the supported volume of files?
+- Size of files?
+- Management: Once uploaded, how will I manage my documents?
+- Meta data for files
+- Can the file be amended, or edited
+- Can it be shared
+
+Good example of how a seemingly simple feature can quickly expand int- an epic.
+
+Then you start building test cases:
+- As an unauthorized user, I can't upload or access files.
+
+One the tests are written, TDD or test automation can execute the tests.
+
+This collaborative approach is great as it leverages the combined experience and creativity of the group—not just relying on one person t- think of everything.
+
+## INVEST
+
+An accepted set of criteraia or checklst t- asses the quality of a user story.
+
+![](/src/assets/images/invest.png)
+
+- Indpendent
+- Negotiable
+- Valuable
+- Estimable
+- Small
+- Testable
+
+## Acceptance criteria
+
+- Conditions that a use story
+- Rules that dictate teh
+TODO: review
+
+Components:
+- Conditions of satisfaction: What stakeholders need t- see
+- Positive and negative scenarios
+- Boundaries and constaints
+
+Acceptence criteria is crucial because:
+- It defines the scope
+- Helps reach consensus with stakeholders and developers s what's required is clear and documentated
+- Descriving scenarios: how it will behave under normal and abnormal conditions, e.g. incorrect input or unexpected user behavioour
+
+Best ways t- wite acceptance criteria:
+- Plain lanuage: The use can login with a usename and password
+- Scenario: Use places an order with items in the cart. When the user hits place order, payment will be charged and order quantities ill be updated
+- Given-when-then: Given the user is on the home page, when they click add t- art button, bht eproduct is added t- ehir cart
+- Business rules: The discount whould be applied automatically once three qualifying products are added t- the cart.
+
+Key characteristics:
+
+- Measruable and specific
+- Testable and verifiable
+- Based on user requirements
+- Clear and consise
+- Independent and atomic: each acceptance criteria can be evaluated separately
+- Prioritized and relevant: Stakeholders know the priority of features needed.
+- Align with business goals
+
+## Acceptance Test-driven Development
+
+- Agile development approach that emphasizes collaboration with developers, testers, and stakeholders
+- Extends TDD by incoproating the perspectives of business stakeholders
+- Written in business-friendly language that stakeholdes can understand
+- Collaoratively designed t- get rapid feedback from stakeholders and get developers and testers on the same page.
+
+How t- write ATDD:
+- Collaborative Requirements Gathering
+- Formulating Acceptance Criteria
+- Acceptance Test Creation
+- Automate Acceptance Tests
+© The Knowledge Academy Ltd
+- Test Execution and Validation
+- Continuous Collaboration and Feedback
+- Continuous Improvement
+
+ATDD is a customer-centric approach to development where requirements are validated through executable tests, leading to a higher degree of condience in the software's quality and functionality.
+
+![](/src/assets/images/atdd.png)

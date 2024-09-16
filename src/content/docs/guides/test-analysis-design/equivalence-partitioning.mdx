@@ -5,6 +5,40 @@ title: Equivalence Partitioning
 import FAQList from "../../../../components/faq-list.astro";
 import FAQ from "../../../../components/faq.astro";
 
+Reduces the number of test cases while still providing adequate coverage of the system under test.
+
+Divide the input data into different partitions or classes, you can then assume that a nother input within that same partition will work correctly.
+
+Characterisitics:
+- Input/output put into groups expected to exhibit the same behaciour
+- Example: Exam grading. No point testing 30 and 29 as they're both a D.
+
+Principle:
+- You only need one test value from each partition to prove the rule
+
+**EXAM**: One test per partition (valid and invalid), question will be, how many tests needed if there any x partitions? May specific valid and invalid.
+
+This example has six partitions (two invalid, four valid) so would require six tests.
+
+![](/src/assets/images/equiv-partition.png)
+
+Less obvious are (TODO lookuop)
+
+Following are teh steps to apply:
+
+1. Identify the input variables or conditions  
+Ask the developers, BAs, what is we're checking. A tester couldn't possibly know how to test a login form without input
+
+2. Define the input partitions : TODO (go back)
+
+4. Execute the test cases
+
+5. Repeat for other partitions
+
+Goal: Minimize the number of test cases required.
+
+TODO: Exercise 1 and 2 from the exercises doc
+
 ## Review Questions
 
 <FAQList title="FAQs">

@@ -2,13 +2,33 @@
 title: Decision Table Testing
 ---
 
-import FAQList from "../../../../components/faq-list.astro";
-import FAQ from "../../../../components/faq.astro";
+**EXAM**: Do practice examples 3, 4, 5 and 6 to get comfortable with the calculations.
 
-## Review Questions
+Systematic and structured approach to testing that helps identify combinations of conditions and actions to be tested.
 
-<FAQList title="FAQs">
-  <FAQ title="Question 1?">
-    Question 1 answer.
-  </FAQ>
-</FAQList>
+Idea is that we get more effective and efficient test case creation. Less is more.
+
+![](/src/assets/images/decision-table-example.png)
+
+Implementation example.
+
+To calculate number of tests: 2 to the power of the number of conditions.
+
+So in this example, it's 2 to the power of 3 because there are 3 conditions (Red, Amber, Green).
+
+![](/src/assets/images/decision-table-real-world.png)
+
+
+Q: How many columns do I need?
+!: 2 to the power of the number of conditions.
+
+Q: How do I know if I have enough?
+A: 2 to the power of the number of conditions.
+
+Ensure each unique combination of conditions is tested.
+Cross-check thta each condition at least once in each combination
+Confirm that all possible actions 
+Review the decision table with subject matter experts and stakeholders to validate its completelness
+Perform test case executiuon
+
+This gives you teh confience you've covered all the required combinations.

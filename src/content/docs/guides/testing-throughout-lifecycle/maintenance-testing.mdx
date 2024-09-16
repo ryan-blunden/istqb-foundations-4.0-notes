@@ -2,13 +2,59 @@
 title: Maintenance Testing
 ---
 
-import FAQList from "../../../../components/faq-list.astro";
-import FAQ from "../../../../components/faq.astro";
+Refers to the testing activities carried out during the maintenance phase of the software development lifecycle.
 
-## Review Questions
+For example, system package updates, security patches.
 
-<FAQList title="FAQs">
-  <FAQ title="Question 1?">
-    Question 1 answer.
-  </FAQ>
-</FAQList>
+Maintainence testing involves not only erifying modified parts work, but that update.
+
+When receiving a new build, patch etc, you need to know what the scope of the changes are so you know what to test and verify. Then do impact analysis, e.g. does it hit some very critical code in the system and because of that, it could take a huge amount of time to test.
+
+It's important that testers get in the room with everyone involved so it's clear what the scope of the changes are and what it will take for QA to test. Because while development may "really want it in there", teh business value needs to be quantified so that the business can make a decision on whether it's worth the time and effort to test.
+
+It's not QA's job to tell the project whether it's worth implementing—but we're the ones considering the business value and the impact on the business and ensuring everyone is aware so a data-driven decision can be made.
+
+In other words, you don't just accept a "maintenance change" as something that should just go through.
+
+It's not about finding reasons to say no—but the impact analysis will try to work out the benefits vs the cost of ensuring that the change is tested and safe to go through.
+
+It's very important for QA to always raise an opinion tactfully so the risk is well known to team members and stakeholders.
+
+Important that testers are equipped with the knowledge and skills to be able to assess the impact of changes, identify test cases for retesting and how to verify that the change is safe to go through.
+
+But testers can't know everything, so it's important that you're leveraging the people/vendors around you to help you understand the impact of the changes.
+
+"What do I need to know?" "Does config need to change, etc". It's up to you to be proactive and not just rely on, for example, a sparse changelog.
+
+Modification to app:
+- Enhancements
+- Fixes
+- Hot-fixes
+- Enviroment changes
+
+Modification to environment:
+- OS
+- Database
+- Hardware
+
+Migration (platform, cloud, infrastructure)
+
+## Impact Analysis
+
+- How big is the system?
+- How big is the change?
+- What might be affected?
+- How bad would it be?
+
+Even just "one little change", but this could have huge down-stream impacts.
+
+Have your say, and if someone overrides you, that's ok, but at least you've seeked to inform stakeholders about the potential risk.
+
+Impact analysis informs the selected regression tests.
+
+Q: Who is the best to do the impact analysis?
+A: The person/team that's in the best position to know.
+
+The whole point of impact analysis is to identify the risk and not just presume that just because it's a "maintenance fix" that it's low risk and low impact.
+
+New regression tests may need to be added.

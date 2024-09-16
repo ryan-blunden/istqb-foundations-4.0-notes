@@ -3,13 +3,33 @@ title: >
   Example 2: Hospital Management Software
 ---
 
-import FAQList from "../../../../components/faq-list.astro";
-import FAQ from "../../../../components/faq.astro";
 
-## Review Questions
+Situation:
+✓ A hospital is developing a new patient registration system to streamline the process of
+admitting patients and managing their records.
+ATDD Approach:
+➢ User Story: As hospital staff, I want to easily register new patients and access their records so
+that I can reduce waiting times and improve patient care.
+➢ Acceptance Criteria:
+▪ The system allows staff to enter all necessary patient information through a simple
+interface.
+▪ Patient records are created instantly and are easily accessible.
+▪ Duplicate records trigger an alert to the staff.
 
-<FAQList title="FAQs">
-  <FAQ title="Question 1?">
-    Question 1 answer.
-  </FAQ>
-</FAQList>
+Questions and concerns:
+- Words like "streamline" and "easily" are ambiguous
+- "As hospital staff". Who? exactly?
+- Where is the current evidence and feedback that details why it needs to be streamlined? We need a quantitative target to hit in order to know the change has been a positive one.
+- System allows "staff". Who?
+- "All necessary patient information"—this needs to be defined
+- "Patient records... are easily accessible"—who will be accessing it, how will they be accessing it (e.g. iPads?)
+- Has someone from security analysed this to see what the risk of information leaks and exposure is? 
+
+Development:
+✓ The ATDD process starts with defining clear acceptance criteria in collaboration with healthcare
+professionals and administrative staff.
+✓ Acceptance tests are written prior to development.
+✓ The development is guided by these tests to ensure all features meet the defined criteria.
+Outcome:
+✓ The system is implemented successfully, having met all the acceptance tests, leading to
+improved efficiency and patient satisfaction.

@@ -2,13 +2,104 @@
 title: Product Risk Analysis
 ---
 
-import FAQList from "../../../../components/faq-list.astro";
-import FAQ from "../../../../components/faq.astro";
+Risk identification and risk assessment.
 
-## Review Questions
+You want to encourage peole to speak up
 
-<FAQList title="FAQs">
-  <FAQ title="Question 1?">
-    Question 1 answer.
-  </FAQ>
-</FAQList>
+- Detection phase: Inventory of risks, which stakeholders can identify them, use brain storming sessions, workshops, interviews, cause-effect diagrams.
+- Evaluation phase: Classify identified risks, asess probability, consequences, and rank accoding to urgency.
+- Classificaiton is beneficial for mitigation because risks in the same group can often be mitigated in simiualr ways.
+
+1. Technical Risks:  
+New technology that the development team is not familiar with could lead to delays. Integrating
+with existing inventory and payment systems could be more complex than anticipated.
+
+2. Operational Risks:  
+- High traffic volumes could overwhelm the server capacity, leading to downtime or slow
+performance.
+-  Third-party logistics providers might not integrate seamlessly with the new system.
+
+3. Business Risks:  
+Competitors might launch similar features
+Changes in regulartory requirements
+
+4. Project Risks:  
+- Key people with tacit knowledge may leave
+- Project timeline may be too aggresive, leading to rushed developemnt and inadequate testing.
+- If testing is comprimised, quality is comprimised which is not acceptable. But scope can be reduced whcih doesn't inmpact quality.
+- Don't skimp on quality just to follow a plan and get all the things done.
+
+5. Financial Risks:  
+- Budget allocated may be insufficient due to unforseen costs
+
+6. Security Risks:  
+- Potential vulnerabilites
+- Insecure data storage and access practices
+- Shift-left by introducing security experts early in the process
+
+7. Legal Risks:  
+- Intellectual disputes
+- Software license breaches
+- Failing to comply with industry relations, privacy and data prodction laws
+
+## Risk Assessment
+
+Prioritze risks based on severity and likelihood of occurrence.
+
+
+Example of Risk Assessment
+✓ Let's consider a software development project as an example to illustrate risk assessment:
+1. Risk Identification: Imagine a project team has identified several risks to their project, such as:
+▪ Risk A: Lack of skilled developers in a specific programming language needed for the project.
+▪ Risk B: Uncertain customer requirements that might lead to frequent changes.
+▪ Risk C: Third-party vendor dependency for critical project components.
+
+2. Risk Analysis: For each identified risk, the team would analyse and assess:
+▪ Likelihood (Probability): The chance that a risk will occur.
+▪ Impact (Consequence): The potential negative effect on the project if the risk occurs.
+
+3. Risk Evaluation:
+
+- **Risk A (Lack of skilled developers)**:
+  - **Likelihood**: High - Currently, there is a shortage of developers with the required skills in the job market.
+  - **Impact**: Medium - The project could face delays, but with enough lead time, developers could be trained or hired.
+
+- **Risk B (Uncertain customer requirements)**:
+  - **Likelihood**: Medium - The customer has a history of changing their mind, but there's an agreed-upon requirements management process.
+  - **Impact**: High - Changes could significantly disrupt the project timeline and budget.
+
+- **Risk C (Third-party vendor dependency)**:
+  - **Likelihood**: Low - The vendor has a good track record, but their component is complex.
+  - **Impact**: High - Without the component, the project can't proceed, and no alternative vendors are available.
+
+4. Risk Prioritisation:
+▪ Based on the above assessment, risks would be ranked. For
+instance, although Risk C has a low likelihood, its high impact
+might prioritise it over Risk A which has a high likelihood but
+only medium impact.
+▪ Thus, the priority for mitigation might be:
+➢ Risk B - Due to high impact and medium likelihood.
+➢ Risk C - Due to high impact, despite low likelihood.
+➢ Risk A - Due to medium impact, even with high likelihood.
+
+4. Risk Prioritisation:
+
+- Based on the above assessment, risks would be ranked. For instance, although Risk C has a low likelihood, its high impact might prioritise it over Risk A which has a high likelihood but only medium impact.
+
+- Thus, the priority for mitigation might be:
+
+  - Risk B - Due to high impact and medium likelihood.
+  - Risk C - Due to high impact, despite low likelihood.
+  - Risk A - Due to medium impact, even with high likelihood.
+
+5. Risk Mitigation Planning:
+
+- For Risk A, the team might decide to invest in training for existing staff or initiate a recruiting campaign ahead of time.
+
+- For Risk B, the team could engage more frequently with the customer to solidify requirements and include contingency time and budget for changes.
+
+- For Risk C, they might research alternative solutions or work closely with the vendor to understand potential issues and ensure there's a support plan in place.
+
+**EXAM**: Based on these provided rules, which risk is the highest priority? The exam question will give you the rules and context so you can make an informed decision. Weight towards impact, then likelihood.
+
+Every organization has a different way of ranking risks.

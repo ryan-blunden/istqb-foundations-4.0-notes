@@ -5,6 +5,44 @@ title: Test Case Prioritisation
 import FAQList from "../../../../components/faq-list.astro";
 import FAQ from "../../../../components/faq.astro";
 
+Features with critical functionality, business value, risk, and customer impact should be made high-priority and executed early.
+
+Optimizes test efforts, focuses on the most important work first, and aligns with business priorities and goals.
+
+## Risk-based Prioritization
+
+Address the most critical high-risk features first.
+
+If you don't prioritize them and then run out of time, leading to inadequate testing, the business could be severely negatively impacted.
+
+Stakeholders are less worried about the low-risk features.
+
+Ask stakeholders: what are the most critical features that have the most risk?
+
+Prioritize test cases based on the potential impact of a failure on the business and its customers.
+
+## Coverage-based prioritization
+
+Maximize the coverage of the test suite early in the test cycle.
+
+Those covering the most code (especially newly added code) being given higher priority.
+TODO: Review
+
+Real-life:
+
+- Tests that validate new features are run first
+- Tests that exercise core functions are also run early
+- Tests for less frequently used features executed later
+
+## Requirement-based prioritization
+
+Tests linked to the most vital requirements, as defined by stakeholders are done first.
+
+Testing is aligned with business goals and customer needs/expectations, making the product more valuable to the customer.
+
+Real-life:
+- Test cases verifying new pricacy controls for patient data tested first
+
 ## Review Questions
 
 <FAQList title="FAQs">
