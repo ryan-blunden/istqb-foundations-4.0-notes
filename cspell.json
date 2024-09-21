@@ -1,0 +1,18 @@
+{
+  "words": [
+    "Appium",
+    "astro",
+    "ATDD",
+    "chromedriver",
+    "egoic",
+    "exibited",
+    "Hashtable",
+    "ISTQB",
+    "openqa",
+    "SDLC",
+    "testid",
+    "Testware"
+  ],
+  "enabled": true,
+  "ignorePaths": ["src/content/docs/guides/interview-questions.mdx"]
+}

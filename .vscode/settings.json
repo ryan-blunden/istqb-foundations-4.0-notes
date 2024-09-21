@@ -14,5 +14,7 @@
   "editor.wordBasedSuggestions": "off",
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
-  }
+  },
+  "cSpell.enabledLanguageIds": ["markdown", "mdx"],
+  "cSpell.ignorePaths": ["src/content/docs/guides/interview-questions.mdx"]
 }
