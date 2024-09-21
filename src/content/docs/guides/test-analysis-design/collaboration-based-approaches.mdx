@@ -5,15 +5,13 @@ title: Collaboration-based Test Approaches
 import FAQList from "../../../../components/faq-list.astro";
 import FAQ from "../../../../components/faq.astro";
 
-Emphasize cooperation, communicaitn, and teamwork.
+Emphasize cooperation, communication, and teamwork.
 
-Collaboration 
+Testers work closely with developers, BAs, PMs, and stakeholders, as collaboration ensures better quality software.
 
-TODO: Review.
+## Collaborative User Story Writing
 
-Collaborative User Story Writing
-
-- Involves testers in the process of creating and refining user stories.
+Involves testers in the process of creating and refining user stories.
 
 The three C's of user stories:
 - Card
@@ -22,67 +20,69 @@ The three C's of user stories:
 
 ## User story expansion
 
-As a user, I want t- upload files s- I can manage my documents online.
+Example story: As a user, I want to upload files so I can manage my documents online.
 
-Questions t- ask:
-- WHO: What users? Wh- is this for?
-- Wh- should and shouln't be able t- see these documents?
-- HOW: How and where will they store files?
-- WHAT: What files can be uploaded?
+This is a terrible story, but for the sake of this example, these are just some of the questions you'd need to ask:
+
+- What users? Who is this for?
+- Who should and shouldn't be able to see these documents?
+- How and where will they store files?
+- What type of files can be uploaded?
 - What is the supported volume of files?
-- Size of files?
-- Management: Once uploaded, how will I manage my documents?
-- Meta data for files
-- Can the file be amended, or edited
-- Can it be shared
+- What is the allowed size of files?
+- Once uploaded, how will documents be managed?
+- Will the file contents and metadata be searchable?
+- Can a file be amended or edited?
+- Can it be shared?
 
-Good example of how a seemingly simple feature can quickly expand int- an epic.
+Yes, a good developer ask similar questions, but the point, is that by working collaboartively during the story writing process, testers can suggest things the PM, BA, or developer may have missed.
 
-Then you start building test cases:
-- As an unauthorized user, I can't upload or access files.
-
-One the tests are written, TDD or test automation can execute the tests.
-
-This collaborative approach is great as it leverages the combined experience and creativity of the group—not just relying on one person t- think of everything.
+This collaborative approach is great as it leverages the combined experience and creativity of the entiregroup—not just relying on one person to think of everything.
 
 ## INVEST
 
-An accepted set of criteraia or checklst t- asses the quality of a user story.
+An accepted set of criteria in checklist form to asses the quality of a user story.
 
 ![](/src/assets/images/invest.png)
 
-- Indpendent
-- Negotiable
-- Valuable
-- Estimable
-- Small
-- Testable
+- **Independent**  
+Standalone with no dependencies=
+- **Negotiable**  
+It can be changed at anytime.
+- **Valuable**  
+Having real value for the end user.
+- **Estimable**  
+Team is able to confidently estimate its size.
+- **Small**
+Small enough to be developed, tested, and deployed by the end of the cycle.
+- **Testable**
+Test cases can clearly be defined from the acceptance criteria and definition of done.
 
 ## Acceptance criteria
 
-- Conditions that a use story
-- Rules that dictate teh
-TODO: review
+Conditions that a must be fulfilled for a story to be considered acceptable by stakeholders.
+
+Acceptance criteria are the basis from which tests are created to ensure the story meets its requirements.
 
 Components:
-- Conditions of satisfaction: What stakeholders need t- see
-- Positive and negative scenarios
-- Boundaries and constaints
+- Conditions of satisfaction: What stakeholders need to see to approve
+- Positive and negative scenarios: Not just the happy path
+- Boundaries and constraints: Limitations or constraints of the implementation, e.g. performance, regulatory, business rules.
 
-Acceptence criteria is crucial because:
+Acceptance criteria is crucial because:
 - It defines the scope
 - Helps reach consensus with stakeholders and developers s what's required is clear and documentated
 - Descriving scenarios: how it will behave under normal and abnormal conditions, e.g. incorrect input or unexpected user behavioour
 
-Best ways t- wite acceptance criteria:
+Best ways to wite acceptance criteria:
 - Plain lanuage: The use can login with a usename and password
 - Scenario: Use places an order with items in the cart. When the user hits place order, payment will be charged and order quantities ill be updated
-- Given-when-then: Given the user is on the home page, when they click add t- art button, bht eproduct is added t- ehir cart
-- Business rules: The discount whould be applied automatically once three qualifying products are added t- the cart.
+- Given-when-then: Given the user is on the home page, when they click addto art button, bht eproduct is addedto ehir cart
+- Business rules: The discount whould be applied automatically once three qualifying products are addedto the cart.
 
 Key characteristics:
 
-- Measruable and specific
+- Measurable and specific
 - Testable and verifiable
 - Based on user requirements
 - Clear and consise
@@ -95,9 +95,9 @@ Key characteristics:
 - Agile development approach that emphasizes collaboration with developers, testers, and stakeholders
 - Extends TDD by incoproating the perspectives of business stakeholders
 - Written in business-friendly language that stakeholdes can understand
-- Collaoratively designed t- get rapid feedback from stakeholders and get developers and testers on the same page.
+- Collaoratively designedto get rapid feedback from stakeholders and get developers and testers on the same page.
 
-How t- write ATDD:
+How to write ATDD:
 - Collaborative Requirements Gathering
 - Formulating Acceptance Criteria
 - Acceptance Test Creation

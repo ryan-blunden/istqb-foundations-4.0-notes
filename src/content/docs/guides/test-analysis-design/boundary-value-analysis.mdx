@@ -2,36 +2,28 @@
 title: Boundary Value Analysis
 ---
 
-import FAQList from "../../../../components/faq-list.astro";
-import FAQ from "../../../../components/faq.astro";
-
-Helps in selecting test cases by focussing on the boundary values of input variables or conditions, as theyse values tend to be more error prone.
+Helps in selecting test cases by focussing on the boundary values of input variables or conditions, as these values tend to be more error prone.
 
 BVA is usually combined with equivalence partitioning.
 
-TODO: Review slide
-
 Characteristics of BVA:
-- Proves the points at which the rules changes have been encoded are correct
+- Proves the points at which the rule changes have been encoded are correct
 - For each boundary marker, three boundary values might be tested.
 
 ![](/src/assets/images/bva-example.png)
 
-Done because of things like "off by one error", whether that's a logic or spec bug.
+Could be caused by an "off by one error", or a logic or spec bug.
 
 ## Two boundary analysis
 
 ![](/src/assets/images/two-bva.png)
 
-TODO: Revisit the boundary value analysis process slides.
-TODO: Exercise 3 and 4
+## Process
 
-In a three boundary or two boundary analysis, how many test cases will you have?
+1. Identify the input variables or conditions (e.g. age is an integer)
+2. Determine the boundaries, e.g. min, max and sections in between
+3. Select test cases that focus on the boundaries (just below, exactly on, and just above)
+4. Consider additional test cases, e.g. extreme values, crash or hack values.
 
-## Review Questions
-
-<FAQList title="FAQs">
-  <FAQ title="Question 1?">
-    Question 1 answer.
-  </FAQ>
-</FAQList>
+> **EXAM**   
+> Review exercise 3 and 4
