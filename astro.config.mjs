@@ -3,15 +3,14 @@ import starlight from "@astrojs/starlight";
 import tailwind from "@astrojs/tailwind";
 import mdx from "@astrojs/mdx";
 
-// https://astro.build/config
 export default defineConfig({
-  site: "https://ryan-blunden.github.io",
+  site: "https://ryan-blunden.github.io/istqb-foundations-4.0-notes/",
   base: "istqb-foundations-4.0-notes",
   integrations: [
     starlight({
-      title: "ISTQB Foundation Level 4.0 Couse Notes",
+      title: "ISTQB Foundation Level 4.0 Course Notes",
       social: {
-        github: "https://github.com/withastro/starlight",
+        github: "https://github.com/ryan-blunden/istqb-foundations-4.0-notes/",
       },
       sidebar: [
         {

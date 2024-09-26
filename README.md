@@ -1,6 +1,8 @@
-# ISTQB Foundation Level 4.0 Couse Notes
+# ISTQB Foundation Level 4.0 Course Notes
 
 My notes from going through a three-day instructor led course in 2024.
+
+View rendered site at [https://ryan-blunden.github.io/istqb-foundations-4.0-notes/](https://ryan-blunden.github.io/istqb-foundations-4.0-notes/)
 
 To launch the site:
 
