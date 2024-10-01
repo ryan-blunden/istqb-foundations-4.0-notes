@@ -5,60 +5,57 @@ title: Test Monitoring
 import FAQList from "../../../../components/faq-list.astro";
 import FAQ from "../../../../components/faq.astro";
 
-Primary goal of test monitoring is to evaluate the progress of testing efforts and determine if they aslign with predefined criteria for completion.
+Primary goal of test monitoring is to evaluate the progress of testing efforts and determine if they align with predefined criteria for completion.
 
 Test control activities are crucial for several reasons:
 
-- Responding to deviations (planned for 10 tests a day but can only do 5)
-- Managing changes and risks: Adapt quickly to ensure tests are still relevant and priotized correctly.
-- Resource optimization: Reallocate resources and adjust schedules as needed.
-- Ensuring quality and compliance: Adjust testing to meet challenges to ensure test and product quality doesn't suffer.
+- **Responding to deviations** (planned for 10 tests a day but can only do 5)
+- **Managing changes and risks**: Adapt quickly to ensure tests are still relevant and prioritized correctly.
+- **Resource optimization**: Reallocate resources and adjust schedules as needed.
+- **Ensuring quality and compliance**: Adjust testing to meet challenges to ensure test and product quality doesn't suffer.
 
 Activities involved in test control:
-- Re-proitize tests: Do they need them on day 1 or day 21?
-- Changing test schedule: Staff availability, flaky test environments
-- Re-evaluating entry and exit criteria: Do these need to be adjusted due to rework or change in functionality, requirements (e.g. from de-scoping)
-- Review and adjustment of product risks: Adjusting changing risk ratings to meet targets
-- Recommendations to Project Management: Tactful sharing of feedback to project management if you feel something is genuinely worth calling out, but needs to be data driven and provide some options to consider. But it's not your call—you're just the messenger.
+- **Reprioritize tests**: Do they need them on day 1 or day 21?
+- **Changing test schedule**: Staff availability, flaky test environments
+- **Re-evaluating entry and exit criteria**: Do these need to be adjusted due to rework or change in functionality, requirements (e.g. from de-scoping)
+- **Review and adjustment of product risks**: Adjusting changing risk ratings to meet targets
 
-## Test completion report
+>> **Recommendations to Project Management**: 
+>> Tactful sharing of feedback to project management if you feel something is genuinely worth calling out, but needs to be data driven and provide some options to consider. But it's not your call—you're just the messenger.
 
-Missor of the test plan. Duplicate the document, keep the same structure content, but just dcument if you achieved what you set out to do. It's the planned vs. the actual.
+## Test Completion Report
 
-- Check test completion criteria
-- Test artifact handover: test cases, rsults, defect reports, and environments are useful to others e.g. support
-- Test summary report: Summarize testing activities, quality of the product, defect stats, coverage stats, what was your approach, testing techniques
-- Lessons learned: Feedback, post-mortems, Working, not working, lernings, improvements.
-- Release decisions: Provide key information to stakeholders to help them decide whether the product is ready for release.
+Mirror of the test plan. Duplicate the document, keep the same structure content (e.g. titles), but just document if you achieved what you set out to do. It's the planned vs. the actual.
 
-Test monitoring in summary:
+- **Check test completion criteria**: Planned tests have run and exit criteria met
+- **Test artifact handover**: test cases, results, defect reports, and environments are useful to others e.g. support
+- **Test summary report**: Summarize testing activities, quality of the product, defect stats, coverage stats, what was your approach, testing techniques
+- **Lessons learned**: Feedback, postmortems, Working, not working, learning, improvements.
+- **Release decisions**: Provide key information to stakeholders to help them decide whether the product is ready for release.
 
-t Monitoring
-“The collection of information (metrics) either manually or automatically”.
-• Provides feedback about test activities.
-• Provides visibility of the test activities.
-• Enables measurement of exit criteria
-✓ Decision coverage
-✓ Requirements coverage
-✓ Etc.
-• Assesses progress
-✓ Against a planned schedule
-✓ Against the budge
+## Test Monitoring Summary
+
+*The collection of information (metrics) either manually or automatically*.
+
+- Provides feedback about test activities.
+- Provides visibility of the test activities.
+- Enables measurement of exit criteria (e.g. Decision and requirements coverage)
+- Assesses progress against the schedule and budget
 
 ## Metrics
 
 Test metrics are quantitative measures used to gauge various aspects of the software testing process, providing a data-driven foundation for assessing quality, performance, and progress.
 
-**Project Progress Metrics**: These metrics track the progress of the testing project as a whole. They include:
-
+**Project Progress Metrics**:  
+These metrics track the progress of the testing project as a whole. They include:
 - Task completion status
 - Resource usage
 - Overall test effort
 
 Project progress metrics help evaluate if the testing activities are on schedule and within allocated resources.
 
-**Test Progress Metrics**: Test progress metrics focus on the progress of specific testing activities. They include:
-
+**Test Progress Metrics**:  
+Test progress metrics focus on the progress of specific testing activities. They include:
 - Test case implementation progress
 - The readiness of the test environment
 - The number of test cases executed (run/not run)
@@ -67,35 +64,35 @@ Project progress metrics help evaluate if the testing activities are on schedule
 
 These metrics provide insights into testing efficiency and coverage.
 
-- **Product Quality Metrics**: Product quality metrics assess the quality of the software product. They can include:
-
+**Product Quality Metrics**:  
+Product quality metrics assess the quality of the software product. They can include:
   - Availability
   - Response time
   - Mean time to failure
 
-  These metrics help gauge the performance and reliability of the software.
+These metrics help gauge the performance and reliability of the software.
 
-- **Defect Metrics**: Defect metrics track the number and priorities of defects found and fixed during testing. They include:
-
+**Defect Metrics**:  
+Defect metrics track the number and priorities of defects found and fixed during testing. They include:
   - Defect density (defects per size of code or test cases)
   - Defect detection percentage (defects found during testing compared to total defects)
   - Other defect-related measures
 
 These metrics help in identifying the overall software quality and the effectiveness of the defect management process.
 
-- **Risk Metrics**: Risk metrics measure the level of residual risk in the software. They provide insights into the potential impact and likelihood of risks identified during testing. Understanding risk metrics helps in making risk-informed decisions and prioritising testing efforts**.**
+**Risk Metrics**:  
+Risk metrics measure the level of residual risk in the software. They provide insights into the potential impact and likelihood of risks identified during testing. Understanding risk metrics helps in making risk-informed decisions and prioritizing testing efforts.
 
 Crucial to react in real-time, don't wait for things to become a huge issue.
 
 It's usually more important to deliver on time and with quality by de-scoping non-crucial deliverables.
 
-- **Coverage Metrics**: Coverage metrics assess the extent to which the software has been tested. They include:
-
+**Coverage Metrics**: Coverage metrics assess the extent to which the software has been tested. They include:
   - Requirements coverage (percentage of requirements tested)
   - Code coverage (percentage of code executed by test cases)
   - Other coverage-related measures
 
-  Coverage metrics help ensure thorough testing of the software.
+Coverage metrics help ensure thorough testing of the software.
 
-- **Cost Metrics**: Cost metrics include the cost of testing and the organisational cost of quality. These metrics help evaluate the efficiency of testing efforts and the overall cost-effectiveness of quality assurance activities.
-
+**Cost Metrics**:  
+Cost metrics include the cost of testing and the organizational cost of quality. These metrics help evaluate the efficiency of testing efforts and the overall cost-effectiveness of quality assurance activities.

@@ -4,15 +4,19 @@
     "astro",
     "ATDD",
     "chromedriver",
+    "consueqnelutes",
     "egoic",
     "exibited",
     "Hashtable",
     "ISTQB",
     "openqa",
+    "Reprioritize",
     "SDLC",
     "testid",
     "Testware"
   ],
   "enabled": true,
-  "ignorePaths": ["src/content/docs/guides/interview-questions.mdx"]
+  "ignorePaths": [
+    "src/content/docs/guides/interview-questions.mdx"
+  ]
 }

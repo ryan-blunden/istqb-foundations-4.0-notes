@@ -2,14 +2,11 @@
 title: Defect Management
 ---
 
-import FAQList from "../../../../components/faq-list.astro";
-import FAQ from "../../../../components/faq.astro";
-
 Speed up the time between capture and data to fix (e.g. diagnosis, root cause analysis, reproduction).
 
 It's not "them" (developers) and "us" (testers). Do everything you reasonably can to help them get to work to apply the fix. 
 
-Developers will love it when they see that you're trying to make their job as easy as possible.
+Developers will love it when they see that you're trying to make their job as easy as possible by providing all possible detail and context. Be a fellow detective, not just the barer of bad news.
 
 Important to have a defect management and reporting process so every tester is reporting defects with the same process, level of detail, etc.
 
@@ -20,22 +17,33 @@ Important to have a defect management and reporting process so every tester is r
 
 ## Objectives
 
-- Informational utility:
+- Informational utility
 - Quality assessment
-- Process enhancement:  
-  - Don't just log bugs and act as a fire lighter. 
-  - Seek to understand why defects are happening and how the number and severity could be reduced
+- Process enhancement 
+  - Don't just log bugs and act as a fire fighter
+  - Seek to understand why defects are happening and how the number and severity could be reduced  
+  - The best QA teams find little issues in UAT as they've caught them earlier in the process
 
 ## Components of a Defect Report Logged During Dynamic Testing
 
-- **Unique Identifier**: Every defect report is given a distinct code or number. This ensures easy referencing and tracking of the defect across the resolution lifecycle.
-- **Title with Summary**: A concise header that encapsulates the essence of the anomaly, allowing readers to quickly grasp the nature of the defect.
-- **Report Details**: This section covers the date the defect was discovered, the organisation logging it, and details about the author, including their specific role. This offers context about the origin and the credibility of the report.
-- **Test Object and Environment Identification**: Here, the specific module or component (test object) and the testing environment in which the defect was observed are documented. This helps in recreating the conditions for defect verification and resolution.
-- **Defect Context**: This elaborates on the scenario under which the defect arose, such as the test case in progress, the associated test activity, the SDLC phase, and other pertinent details like the testing technique or checklist in use.
-- **Defect Description**: A thorough account of the anomaly, detailing the steps leading to its detection. Supplementary data, like test logs, screenshots, or recordings, can be immensely helpful for those tasked with rectification, offering them a vivid picture of the issue.
-- **Expected Vs Actual Results**: A juxtaposition of what the outcome should have been against what was observed. This clarity aids in discerning the deviation and its implications.
-- **Severity**: This indicates the impact level of the defect, typically in terms of how it affects stakeholders' interests or predefined requirements. It gives an idea of the defect's potential repercussions if left unaddressed.
-- **Priority to Fix**: While 'severity' denotes the impact, 'priority' denotes the urgency to fix the defect. For instance, a severe defect might not be urgent to fix if it's in a less critical module.
-- **Defect Status**: This keeps track of the defect's current state in its lifecycle, such as whether it's open, under review, being fixed, or closed. It's essential for managing the defect until its resolution.
+- **Unique Identifier**:  
+Every defect report is given a distinct code or number. This ensures easy referencing and tracking of the defect across the resolution lifecycle.
+- **Title with Summary**:  
+A concise header that encapsulates the essence of the anomaly, allowing readers to quickly grasp the nature of the defect.
+- **Report Details**:  
+This section covers the date the defect was discovered, the organisation logging it, and details about the author, including their specific role. This offers context about the origin and the credibility of the report.
+- **Test Object and Environment Identification**:  
+Here, the specific module or component (test object) and the testing environment in which the defect was observed are documented. This helps in recreating the conditions for defect verification and resolution.
+- **Defect Context**:  
+This elaborates on the scenario under which the defect arose, such as the test case in progress, the associated test activity, the SDLC phase, and other pertinent details like the testing technique or checklist in use.
+- **Defect Description**:  
+A thorough account of the anomaly, detailing the steps leading to its detection. Supplementary data, like test logs, screenshots, or recordings, can be immensely helpful for those tasked with rectification, offering them a vivid picture of the issue.
+- **Expected Vs Actual Results**:  
+A juxtaposition of what the outcome should have been against what was observed. This clarity aids in discerning the deviation and its implications.
+- **Severity**:  
+This indicates the impact level of the defect, typically in terms of how it affects stakeholders' interests or predefined requirements. It gives an idea of the defect's potential repercussions if left unaddressed.
+- **Priority to Fix**:  
+While 'severity' denotes the impact, 'priority' denotes the urgency to fix the defect. For instance, a severe defect might not be urgent to fix if it's in a less critical module.
+- **Defect Status**:  
+This keeps track of the defect's current state in its lifecycle, such as whether it's open, under review, being fixed, or closed. It's essential for managing the defect until its resolution.
 
